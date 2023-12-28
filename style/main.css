@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&display=swap");
+.page1 {
+  width: 600px;
+  height: 1300px;
+  margin: 0 auto;
+  background-image: url("../img/BG Page 1.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.page2 {
+  width: 600px;
+  height: 1300px;
+  margin: 0 auto;
+  background-image: url("../img/BG Page 2.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .page1 {
+    max-width: 599px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../img/BG Page 1.jpg");
+  }
+  .page2 {
+    max-width: 599px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../img/BG Page 2.jpg");
+  }
+}
+h3 {
+  margin-top: 120px;
+}
+
+#curve {
+  fill: transparent;
+}
+
+.text {
+  font-size: 42px;
+  fill: #4f6f52;
+  font-weight: bold;
+  font-family: "Literata", serif;
+}
+
+.text-name {
+  font-size: 92px;
+  color: #4f6f52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Literata", serif;
+  line-height: 1;
+}
+
+.container {
+  text-align: center; /* Untuk mengatur teks berada di tengah */
+}
+
+.text-date {
+  border: 2px solid orange;
+  padding: 5px 20px 5px 20px;
+  font-size: 32px;
+  color: #4f6f52;
+  display: inline-block;
+  text-align: center; /* Untuk membuat teks berada di tengah */
+  margin: 0 auto;
+  font-family: "Literata", serif;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #4f6f52;
+  font-family: "Literata", serif;
+}
+
+svg {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 767px) {
+  svg {
+    transform: translateX(-200px);
+  }
+}
+.image-container {
+  margin-top: 175px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  border-radius: 200px;
+  border: 5px solid white;
+  width: 300px;
+  height: 550px;
+}
+
+.leaf-1 {
+  position: absolute;
+  right: 20px;
+  top: 900px;
+}
+
+.leaf-2 {
+  position: absolute;
+  top: 770px;
+  right: 480px;
+}
+
+.flower-3 {
+  position: absolute;
+  top: 950px;
+  right: -150px;
+}
+
+.flower-1 {
+  position: absolute;
+  right: 215px;
+  top: 1140px;
+}
+
+.flower-4 {
+  position: absolute;
+  right: -150px;
+  top: -140px;
+}
+
+.page2 .flower-2 {
+  position: absolute;
+  top: 1030px;
+  right: -35px;
+}
+
+.page2 .flower-1 {
+  position: absolute;
+  right: 215px;
+  top: -160px;
+}
+
+.page2 .leaf-1 {
+  position: absolute;
+  top: 380px;
+  right: 45px;
+}
+
+.page2 .leaf-2 {
+  position: absolute;
+  top: 620px;
+  right: 460px;
+}
+
+.page-content {
+  margin-top: 230px;
+  margin-left: 35px;
+  width: 490px;
+  height: 1095px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h5 {
+  color: #e36414;
+  font-family: "Literata", serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: skew(-20deg);
+}
+
+.text-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Literata", serif;
+  text-align: center;
+  color: #4f6f52;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .leaf-1 {
+    top: 875px;
+    right: 20px;
+  }
+  .leaf-2 {
+    top: 770px;
+    right: 470px;
+  }
+  .flower-1 {
+    top: 1137px;
+    right: 215px;
+  }
+  .flower-3 {
+    top: 950px;
+    right: -150px;
+  }
+  .flower-4 {
+    top: -140px;
+    right: -150px;
+  }
+  .page2 .leaf-1 {
+    top: 1850px;
+    right: 280px;
+  }
+  .page2 .leaf-2 {
+    top: 1680px;
+    right: -140px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .text {
+    font-size: 42px;
+  }
+  .text-name {
+    font-size: 62px;
+  }
+  .text-date {
+    font-size: 32px;
+  }
+  .text-description {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 28px;
+  }
+}
+/* Animasi fade-up-left */
+@keyframes fadeUpLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Animasi gerak ke atas dan ke bawah */
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/* Atur animasi untuk elemen */
+.flower-4 {
+  animation: fadeUpLeft 1.5s ease forwards, moveUpDown 2s ease-in-out infinite alternate 1.5s, sway 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite 1.5s; /* Sesuaikan durasi dan timing function */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg); /* Putaran penuh (360 derajat) */
+  }
+}
+/* Atur animasi untuk elemen */
+.leaf-1,
+.leaf-2 {
+  animation: spin 8s linear infinite; /* Sesuaikan durasi dan timing function */
+}
+
+#audioPlayer {
+  display: none; /* Sembunyikan elemen audio */
+}
+
+.audio-container {
+  position: relative;
+}
+
+#playPauseBtn {
+  position: fixed;
+  bottom: 350px;
+  right: 635px;
+  z-index: 999;
+  color: #4f6f52;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+  #playPauseBtn {
+    bottom: 550px;
+    right: 20px;
+  }
+}
+.icon {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 20px solid #333;
+  margin: 10px 0 0 10px;
+}
+
+#playIcon {
+  display: block;
+}
+
+#playPauseBtn.play #playIcon {
+  border-left: 0;
+  border-right: 20px solid #333;
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */
