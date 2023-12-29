@@ -1,4 +1,4 @@
 # FE_Test_Rangga
 
-![page1](https://github.com/rangga48/FE_Test_Rangga/assets/32666850/f70787cc-1478-46a6-8322-ed8f0d98e4ad)
-![page2](https://github.com/rangga48/FE_Test_Rangga/assets/32666850/a5c0fc9d-9233-495f-a511-9ee400e83420)
+![page_1_fix](https://github.com/rangga48/FE_Test_Rangga/assets/32666850/149f6fe2-c025-4e60-b24a-ac5b2b076bb8)
+![page_2_fix](https://github.com/rangga48/FE_Test_Rangga/assets/32666850/fb77ef16-2c73-4e9e-b6bc-688f6f6eefb0)
